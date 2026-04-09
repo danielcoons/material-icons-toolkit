@@ -7,6 +7,8 @@ A restructured and extended distribution of Material Design Icons with additiona
 - Pre-generated PNG sizes (24, 30, 40, 48, etc.)
 - Script tool to regenerate or extend icon sizes
 
+See an image gallery [here](/examples/gallery.html)
+
 ## 📦 Project Structure
 ```
 icons/  
