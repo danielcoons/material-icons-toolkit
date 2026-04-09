@@ -43,6 +43,10 @@ function render() {
     card.appendChild(img);
     card.appendChild(label);
     gallery.appendChild(card);
+    card.onclick = () => {
+    navigator.clipboard.writeText(icon.name);
+};
+
   });
 }
 
