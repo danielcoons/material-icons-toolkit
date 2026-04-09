@@ -4,6 +4,10 @@ body {
   background: #f6f7f9;
   color: #222;
 }
+@media (prefers-color-scheme: dark) {
+  body { background: #1e1e1e; color: #eee; }
+  .icon-card { background: #2a2a2a; }
+}
 
 header {
   display: flex;
