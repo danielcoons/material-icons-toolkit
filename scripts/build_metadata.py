@@ -42,7 +42,8 @@ def build_metadata():
             if name not in icon_map:
                 icon_map[name] = {
                     "name": name,
-                    "sizes": []
+                    "sizes": [],
+                    "tags": name.replace("-", "_").split("_")
                 }
 
             try:
