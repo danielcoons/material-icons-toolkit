@@ -32,7 +32,7 @@ function render() {
     card.className = "icon-card";
 
     const img = document.createElement("img");
-    img.src = `../icons/png/${size}x${size}/${icon.name}.png`;
+    img.src = `../icons/png/${size}/${icon.name}.png`;
     img.width = size;
     img.height = size;
 
