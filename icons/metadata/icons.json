@@ -1,0 +1,5 @@
+[
+  { "name": "home", "category": "navigation" },
+  { "name": "menu", "category": "navigation" },
+  { "name": "search", "category": "action" }
+]
