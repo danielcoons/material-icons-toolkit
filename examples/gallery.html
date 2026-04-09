@@ -6,17 +6,26 @@
   <link rel="stylesheet" href="./gallery.css" />
 </head>
 <body>
-  <header>
-    <h1>Icon Preview Gallery</h1>
-    <input type="text" id="search" placeholder="Search icons..." />
-    
-    <select id="sizeSelector">
-      <option value="24" selected>24px</option>
-      <option value="30">30px</option>
-      <option value="40">40px</option>
-      <option value="48">48px</option>
-    </select>
-  </header>
+<header>
+  <h1>Icon Preview Gallery</h1>
+  
+  <div class="controls">
+    <label>
+      Size:
+      <select id="sizeSelector">
+        <option value="24" selected>24px</option>
+        <option value="30">30px</option>
+        <option value="40">40px</option>
+        <option value="48">48px</option>
+      </select>
+    </label>
+
+    <label>
+      Search:
+      <input type="text" id="search" placeholder="Type to filter icons..." />
+    </label>
+  </div>
+</header>
 
   <main id="gallery"></main>
 

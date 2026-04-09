@@ -42,11 +42,12 @@ function render() {
 
     card.appendChild(img);
     card.appendChild(label);
-    gallery.appendChild(card);
     card.onclick = () => {
     navigator.clipboard.writeText(icon.name);
-};
-
+      // Optional: show a tiny message
+      alert(`Copied "${icon.name}" to clipboard`);
+    };
+    gallery.appendChild(card);
   });
 }
 
